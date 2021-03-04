@@ -10,7 +10,7 @@ dotenv.config()
 
 mongoose.Promise = Promise
 
-mongoose.connect('mongodb+srv://b2dev:xR8poye1GQFR7bmp@cluster0.4a3eo.mongodb.net/b2dev?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
+mongoose.connect('mongodb+srv://-----mdp sur teams--------/b2dev?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
 
 var db = mongoose.connection
 db.on('error', console.error.bind(console, 'connection error: '))
